@@ -1,7 +1,7 @@
 import { Link } from "wouter";
 import {List, X } from "@phosphor-icons/react";
 
-import logo from "../../assets/logo.svg";
+// import logo from "../../assets/logo.svg";
 
 import { NAV_LINKS } from "../../utils/constants";
 import "./Header.css";
