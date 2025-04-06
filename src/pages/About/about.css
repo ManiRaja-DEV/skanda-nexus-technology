@@ -1,0 +1,114 @@
+.about__main {
+  padding: 2.5rem 0;
+  border-top: 1px solid var(--grey-700);
+}
+
+.about__main-content {
+  width: min(100%, 36rem);
+  margin: 0 auto 1.875rem auto;
+}
+
+.about__main-heading {
+  margin-bottom: 1rem;
+  font-size: 1.75rem;
+  font-weight: var(--fw-semibold);
+  color: var(--white);
+}
+
+.about__main-text {
+  font-size: clamp(0.875rem, 0.8393rem + 0.1786vw, 1rem);
+  color: var(--grey-100);
+}
+
+.about__image {
+  width: min(100%, 20rem);
+  margin: 0 auto;
+  border: 1px solid var(--grey-700);
+  border-radius: var(--rounded-md);
+}
+
+.about__content {
+  padding-top: 1.25rem;
+}
+
+.about__content-tagline {
+  padding-inline: 1.5rem;
+  margin-bottom: 1.25rem;
+  font-size: 1.75rem;
+  font-weight: var(--fw-semibold);
+  color: var(--white);
+}
+
+.about__content-item {
+  padding: 1.25rem 1.5rem;
+}
+
+.about__content-header {
+  display: flex;
+  align-items: center;
+  gap: 0.625rem;
+  margin-bottom: 1.875rem;
+}
+
+.about__content-count {
+  font-size: 3.75rem;
+  font-weight: var(--fw-semibold);
+  line-height: initial;
+  color: var(--green-500);
+}
+
+.about__content-heading {
+  flex: 1;
+  padding-bottom: 5px;
+  border-bottom: 1px solid var(--grey-700);
+}
+
+.about__content-count,
+.about__content-heading {
+  font-weight: var(--fw-semibold);
+  color: var(--green-500);
+}
+
+.about__content-description {
+  font-size: clamp(0.875rem, 0.8393rem + 0.1786vw, 1rem);
+  color: var(--grey-200);
+}
+
+.about__content,
+.about__content-item {
+  border: 1px solid var(--grey-700);
+  border-bottom: 0;
+}
+
+@media screen and (min-width: 48rem) {
+  .about__main {
+    display: flex;
+    align-items: center;
+    gap: 6.25rem;
+    padding: clamp(2.5rem, 1.7857rem + 3.5714vw, 5rem)
+      clamp(1.25rem, -0.1786rem + 7.1429vw, 6.25rem);
+    border: 1px solid var(--grey-700);
+    border-bottom: 0;
+  }
+
+  .about__content {
+    padding-top: clamp(2.5rem, 1.7857rem + 3.5714vw, 5rem);
+  }
+
+  .about__content-tagline {
+    font-size: clamp(1.75rem, 1.5714rem + 0.8929vw, 2.375rem);
+    margin-bottom: clamp(2.5rem, 1.7857rem + 3.5714vw, 5rem);
+  }
+
+  .about__content-wrapper {
+    display: flex;
+    flex-wrap: wrap;
+  }
+
+  .about__content-item {
+    flex-basis: 50%;
+    flex-shrink: 0;
+    padding: clamp(2.5rem, 1.7857rem + 3.5714vw, 5rem)
+      clamp(1.5rem, 1.2143rem + 1.4286vw, 2.5rem);
+  }
+}
