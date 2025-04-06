@@ -11,7 +11,7 @@ function AppRoutes() {
   return (
     <Layout>
       <Switch>
-        <Route path="/" component={Home} />
+        <Route path="/skanda-nexus-technology" component={Home} />
         <Route path="/services" component={Services} />
         <Route path="/careers" component={Careers} />
         <Route path="/training-development" component={TrainingDevelopment} />
