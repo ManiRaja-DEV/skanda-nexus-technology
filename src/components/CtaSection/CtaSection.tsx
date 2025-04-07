@@ -28,7 +28,7 @@ function CtaSection() {
             Shape the Future of Digital Innovation.
           </p>
         </div>
-        <a href="/contact-us#contact-form" className="cta-section__main-btn">
+        <a href="/#mobileapp/contact-us#contact-form" className="cta-section__main-btn">
           Start Project
         </a>
       </div>
