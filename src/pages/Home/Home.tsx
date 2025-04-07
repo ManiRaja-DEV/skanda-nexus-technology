@@ -44,10 +44,10 @@ function Home() {
           <span className="home__btn">Growing Organizations</span>
         </p>
         <div className="home__cta">
-          <Link to="/about-us" className="home__cta-btn home__cta-btn--about">
+          <Link to="/skanda-nexus-technology/about-us" className="home__cta-btn home__cta-btn--about">
             About Us
           </Link>
-          <Link to="/contact-us" className="home__cta-btn">
+          <Link to="/skanda-nexus-technology/contact-us" className="home__cta-btn">
             Contact Us
           </Link>
         </div>
@@ -66,7 +66,7 @@ function Home() {
             Real-time location tracking, route optimization, fuel monitoring,
             and driver behavior insights.
           </p>
-          <a href="/products" className="careers__apply-btn">
+          <a href="/skanda-nexus-technology/products" className="careers__apply-btn">
             Learn More
           </a>
         </div>
@@ -79,7 +79,7 @@ function Home() {
             Talent acquisition, performance management, payroll, and compliance
             support.
           </p>
-          <a href="/services#hrservices" className="careers__apply-btn">
+          <a href="/skanda-nexus-technology/services#hrservices" className="careers__apply-btn">
             Learn More
           </a>
         </div>
@@ -92,7 +92,7 @@ function Home() {
             Custom website solutions with UI/UX design, SEO, and e-commerce
             features.
           </p>
-          <a href="/services#webdevelopment" className="careers__apply-btn">
+          <a href="/skanda-nexus-technology/services#webdevelopment" className="careers__apply-btn">
             Learn More
           </a>
         </div>
@@ -105,7 +105,7 @@ function Home() {
             High-quality iOS & Android app development with seamless user
             experience.
           </p>
-          <a href="/services#mobileapp" className="careers__apply-btn">Learn More</a>
+          <a href="/skanda-nexus-technology/services#mobileapp" className="careers__apply-btn">Learn More</a>
         </div>
         <div className="careers__type-item">
           <span className="careers__type-icon">
@@ -116,7 +116,7 @@ function Home() {
             Corporate training, certification programs, soft skills, leadership,
             and psychological training.
           </p>
-          <a href="/training-development" className="careers__apply-btn">Learn More</a>
+          <a href="/skanda-nexus-technology/training-development" className="careers__apply-btn">Learn More</a>
         </div>
       </div>
       <PageHero
