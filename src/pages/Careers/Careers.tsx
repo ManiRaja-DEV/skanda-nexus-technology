@@ -3,7 +3,6 @@ import PageHero from "../../components/PageHero/PageHero";
 
 import "./careers.css";
 import Form from "../../components/Form/Form";
-import CtaSection from "../../components/CtaSection/CtaSection";
 
 function Careers() {
   const heroContent = {
