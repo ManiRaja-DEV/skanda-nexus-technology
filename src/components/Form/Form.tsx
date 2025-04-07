@@ -26,6 +26,15 @@ function Form({ isCareersForm }: IForm) {
 
   const handleSubmit = async (event: React.FormEvent) => {
     event.preventDefault();
+    const sheetsUrl = {
+      projectInquiry:
+        "https://script.google.com/macros/s/AKfycbyHgcszymMGFWx0jcRAdZzD0BQwZjNzOg29ums6TjIJ6aucuJ-2sBWl5OsVDxqojACs/exec",
+      candidateDetails:
+        "https://script.google.com/macros/s/AKfycbw8fIWZxA6ZB9aa65dilH_AD61TE4IdCvK0Tzd1wRp-Y2OLl46rc9z0vATVt4HRakYH/exec",
+    };
+    const sheetUrl = isCareersForm
+      ? sheetsUrl.candidateDetails
+      : sheetsUrl.projectInquiry;
 
     if (selectedCheckboxes.length === 0) {
       setFormError("Please select at least one option.");
@@ -36,29 +45,35 @@ function Form({ isCareersForm }: IForm) {
       const form = formRef.current;
       const formData = new FormData(form);
 
-      formData.append("services", selectedCheckboxes.join(", "));
-      formData.delete("service");
-      fetch(
-        "https://script.google.com/macros/s/AKfycby6DLR8eFVsAXmLnd-jR0pdllikCyQiKgU6ymvRWl70LVnDkPlsBQMKO4xpcLRl6MJT/exec",
-        {
+      isCareersForm
+        ? formData.append("job", selectedCheckboxes.join(", "))
+        : formData.append("services", selectedCheckboxes.join(", "));
+      isCareersForm && formData.append("isCareerFrom", "true");
+      !isCareersForm && formData.delete("service");
+
+      console.log(formData);
+
+      try {
+        const response = await fetch(sheetUrl, {
           method: "POST",
           body: formData,
-        }
-      )
-        .then((res) => {
-          if (!res.ok) {
-            throw new Error("Network response was not ok");
-          }
-          return res.json();
-        })
-        .then((data) => {
-          console.log(data);
-          toast("Success");
-        })
-        .catch((err) => {
-          console.error("There was a problem with the fetch operation:", err);
-          alert("Submission failed. Please try again.");
         });
+
+        if (!response.ok) {
+          toast("Submission failed. Please try again", { className: "toast" });
+        }
+
+        const data = await response.json();
+        console.log(data);
+
+        if (data.result === "success") {
+          toast("Submission successful");
+        } else {
+          toast("Submission failed. Please try again.");
+        }
+      } catch (error) {
+        toast("Submission failed. Please try again.");
+      }
     }
   };
 

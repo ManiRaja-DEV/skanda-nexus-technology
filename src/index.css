@@ -155,3 +155,8 @@ img {
 p {
   line-height: 1.5;
 }
+
+.Toastify__toast {
+  background-color: var(--green-800) !important;
+  color: var(--black) !important;
+}

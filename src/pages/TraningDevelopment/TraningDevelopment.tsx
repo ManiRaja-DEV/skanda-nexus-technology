@@ -128,6 +128,7 @@ function TrainingDevelopment() {
         heading={subHeroContent.heading}
         description={subHeroContent.description}
         isSubHero={true}
+        page="trainingAndDevelopment"
       />
     </div>
   );

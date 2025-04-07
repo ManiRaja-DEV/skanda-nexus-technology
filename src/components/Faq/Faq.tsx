@@ -41,7 +41,9 @@ function Faq() {
           />
         </div>
         <p className="faq__answer">
-          We offer IT, HR, GPS tracking, and Training & Development solutions.
+          We offer end-to-end solutions in Human Resources, Information
+          Technology, GPS tracking systems, and Training &amp; Development, all
+          tailored to enhance your business performance.
         </p>
       </div>
       <div className="faq__item">
@@ -63,8 +65,9 @@ function Faq() {
           />
         </div>
         <p className="faq__answer">
-          Yes, we provide customized training programs for leadership, technical
-          skills, and employee well-being.
+          Yes, we specialize in corporate training programs designed to improve
+          employee skills, productivity, and align with your company’s strategic
+          goals.
         </p>
       </div>
       <div className="faq__item">
@@ -86,8 +89,9 @@ function Faq() {
           />
         </div>
         <p className="faq__answer">
-          We provide industry-recognized certifications in IT, HR, business
-          management, and more.
+          We provide industry-recognized certification courses in HR management,
+          IT tools &amp; technologies, soft skills, communication, and
+          leadership development.
         </p>
       </div>
       <div className="faq__item">
@@ -109,8 +113,9 @@ function Faq() {
           />
         </div>
         <p className="faq__answer">
-          Training duration varies based on the program, from short workshops to
-          extensive certification courses.
+          The duration varies based on the course—some are short-term (2–5
+          days), while others may extend up to 4 weeks depending on depth and
+          complexity.
         </p>
       </div>
       <div className="faq__item">
@@ -132,8 +137,8 @@ function Faq() {
           />
         </div>
         <p className="faq__answer">
-          Yes! We offer tailored training programs to match your company's
-          requirements.
+          Absolutely. We design training modules based on your specific
+          industry, team size, goals, and skill gaps to ensure maximum impact.
         </p>
       </div>
     </div>

@@ -29,11 +29,9 @@ function Services() {
               Business Process Outsourcing (BPO) for HR
             </h2>
             <p className="services__description">
-              At Skanda Nexus, our design team is passionate about creating
-              stunning, user-centric designs that captivate your audience and
-              elevate your brand. We believe that great design is not just about
-              aesthetics; it's about creating seamless and intuitive user
-              experiences.
+              From customer support to backend tasks, we handle it all. Maximize
+              productivity while reducing operational costs. Your process, our
+              precision—outsourced with excellence.
             </p>
             <p className="services__btn">Our BPO services include:</p>
           </div>
@@ -112,13 +110,14 @@ function Services() {
               Recruitment & Talent Acquisition
             </h2>
             <p className="services__description">
-              At Skanda Nexus, our design team is passionate about creating
-              stunning, user-centric designs that captivate your audience and
-              elevate your brand. We believe that great design is not just about
-              aesthetics; it's about creating seamless and intuitive user
-              experiences.
+              Find the right talent, the first time. We specialize in strategic
+              hiring that aligns with your vision. From sourcing to onboarding,
+              we cover every step. Empowering your teams with future-ready
+              professionals.
             </p>
-            <p className="services__btn">Our Recruitment & Talent services include:</p>
+            <p className="services__btn">
+              Our Recruitment & Talent services include:
+            </p>
           </div>
           {/* <h3 className="services__type">Recruitment & Talent Acquisition</h3> */}
           <div className="services__type-wrapper">
@@ -184,13 +183,14 @@ function Services() {
           <div className="services__item-header">
             <h2 className="services__heading">HR Strategy & Advisory</h2>
             <p className="services__description">
-              At Skanda Nexus, our design team is passionate about creating
-              stunning, user-centric designs that captivate your audience and
-              elevate your brand. We believe that great design is not just about
-              aesthetics; it's about creating seamless and intuitive user
-              experiences.
+              Build a people-first culture with smart HR strategies. We craft
+              agile frameworks that scale with your business. Our advisory
+              blends insight with innovation. Drive growth with a workforce
+              aligned to your goals.
             </p>
-            <p className="services__btn">Our HR Strategy & Advisory services include:</p>
+            <p className="services__btn">
+              Our HR Strategy & Advisory services include:
+            </p>
           </div>
           {/* <h3 className="services__type">HR Strategy & Advisory</h3> */}
           <div className="services__type-wrapper">
@@ -258,13 +258,14 @@ function Services() {
           <div className="services__item-header">
             <h2 className="services__heading">HR Compliance & Legal Support</h2>
             <p className="services__description">
-              At Skanda Nexus, our design team is passionate about creating
-              stunning, user-centric designs that captivate your audience and
-              elevate your brand. We believe that great design is not just about
-              aesthetics; it's about creating seamless and intuitive user
-              experiences.
+              Stay ahead of regulations with expert HR compliance. We simplify
+              legal complexities and reduce risks. From audits to policy
+              updates, we’ve got you covered. Secure, lawful, and always
+              HR-ready.
             </p>
-            <p className="services__btn">Our HR Compliance & Legal Support services include:</p>
+            <p className="services__btn">
+              Our HR Compliance & Legal Support services include:
+            </p>
           </div>
           {/* <h3 className="services__type">HR Compliance & Legal Support</h3> */}
           <div className="services__type-wrapper">
@@ -328,7 +329,9 @@ function Services() {
               website, a high-performance web app, or a dynamic CMS platform, we
               bring your vision to life with precision and innovation.
             </p>
-            <p className="services__btn">Our Web Development services include:</p>
+            <p className="services__btn">
+              Our Web Development services include:
+            </p>
           </div>
           {/* <h3 className="services__type">Web Development</h3> */}
           <div className="services__type-wrapper">
@@ -393,7 +396,9 @@ function Services() {
               cross-platform solution, our team ensures cutting-edge innovation
               tailored to your needs.
             </p>
-            <p className="services__btn">Our Mobile App Development services include:</p>
+            <p className="services__btn">
+              Our Mobile App Development services include:
+            </p>
           </div>
           {/* <h3 className="services__type">Mobile App Development</h3> */}
           <div className="services__type-wrapper">
@@ -465,6 +470,7 @@ function Services() {
         heading={subHeroContent.heading}
         description={subHeroContent.description}
         isSubHero={true}
+        page="services"
       />
     </div>
   );

@@ -16,7 +16,7 @@ function Home() {
   const whyUsContent = {
     heading: "Why Choose Skanda Nexus?",
     description:
-      "We provide tailored IT, HR, and Training solutions with measurable results.",
+      "At Skanda Nexus, we deliver more than just services—we create customized IT, HR, and Training solutions that are purpose-built to match your needs and deliver measurable, lasting impact.We aim to be a trusted partner in your growth, driving innovation and efficiency at every step.",
   };
 
   const faqHeroContent = {
@@ -27,7 +27,8 @@ function Home() {
 
   const subHeroContent = {
     heading: "Thank you for your Interest in Skanda Nexus.",
-    description: "We would love to hear from you and discuss how we can help bring your digital ideas to life. Here are the different ways you can get in touch with us."
+    description:
+      "We would love to hear from you and discuss how we can help bring your digital ideas to life. Here are the different ways you can get in touch with us.",
   };
 
   return (
@@ -38,13 +39,17 @@ function Home() {
         </h1>
         <p className="home__sub-tagline">
           For <span className="home__btn">Startups</span>,
-          <span className="home__btn">Enterprise Leaders</span>, 
-          <span className="home__btn">Innovators</span>, and 
+          <span className="home__btn">Enterprise Leaders</span>,
+          <span className="home__btn">Innovators</span>, and
           <span className="home__btn">Growing Organizations</span>
         </p>
         <div className="home__cta">
-          <Link to="/about-us" className="home__cta-btn home__cta-btn--about">About Us</Link>
-          <Link to="/contact-us" className="home__cta-btn">Contact Us</Link>
+          <Link to="/about-us" className="home__cta-btn home__cta-btn--about">
+            About Us
+          </Link>
+          <Link to="/contact-us" className="home__cta-btn">
+            Contact Us
+          </Link>
         </div>
       </section>
       <PageHero
@@ -116,26 +121,34 @@ function Home() {
         <div className="careers__list-item">
           <h2 className="careers__list-heading">Industry Expertise</h2>
           <p className="careers__list-description">
-            Specialists in HR, IT, GPS tracking, and Training & Development.
+            Our multidisciplinary team brings in-depth knowledge across HR, IT,
+            GPS tracking, and Training &amp; Development, ensuring solutions
+            that are both relevant and future-ready. We stay ahead of industry
+            trends to equip your business with a competitive edge.
           </p>
         </div>
         <div className="careers__list-item">
           <h2 className="careers__list-heading">Client-Centric Approach</h2>
           <p className="careers__list-description">
-            Customized solutions aligned with your business goals.
+            Your business is our priority. We craft strategies that are aligned
+            with your unique challenges, goals, and growth plans. Every solution
+            is built with your long-term success and satisfaction in mind.
           </p>
         </div>
         <div className="careers__list-item">
           <h2 className="careers__list-heading">Results-Driven</h2>
           <p className="careers__list-description">
-            Ensuring tangible improvements in workforce skills and business
-            operations.
+            We are focused on real outcomes—boosting workforce capability,
+            optimizing operations, and driving business efficiency. Our
+            performance metrics are designed around what matters most to you.
           </p>
         </div>
         <div className="careers__list-item">
           <h2 className="careers__list-heading">Long-Term Partnership</h2>
           <p className="careers__list-description">
-            Ongoing support and continuous improvement.
+            Beyond project delivery, we offer continuous support and agile
+            solutions that evolve with your business needs. We grow with you,
+            adapting to your goals as they change and scale.
           </p>
         </div>
       </section>
