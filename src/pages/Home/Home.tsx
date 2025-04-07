@@ -8,7 +8,7 @@ import Form from "../../components/Form/Form";
 
 function Home() {
   const servicesContent = {
-    heading: "Our Services",
+    heading: "Our Services and Products",
     description:
       "Transform your brand with our innovative digital solutions that captivate and engage your audience.",
   };
@@ -66,7 +66,9 @@ function Home() {
             Real-time location tracking, route optimization, fuel monitoring,
             and driver behavior insights.
           </p>
-          <a className="careers__apply-btn">Learn More</a>
+          <a href="/products" className="careers__apply-btn">
+            Learn More
+          </a>
         </div>
         <div className="careers__type-item">
           <span className="careers__type-icon">
@@ -77,7 +79,9 @@ function Home() {
             Talent acquisition, performance management, payroll, and compliance
             support.
           </p>
-          <a className="careers__apply-btn">Learn More</a>
+          <a href="/services#hrservices" className="careers__apply-btn">
+            Learn More
+          </a>
         </div>
         <div className="careers__type-item">
           <span className="careers__type-icon">
@@ -88,7 +92,9 @@ function Home() {
             Custom website solutions with UI/UX design, SEO, and e-commerce
             features.
           </p>
-          <a className="careers__apply-btn">Learn More</a>
+          <a href="/services#webdevelopment" className="careers__apply-btn">
+            Learn More
+          </a>
         </div>
         <div className="careers__type-item">
           <span className="careers__type-icon">
@@ -99,7 +105,7 @@ function Home() {
             High-quality iOS & Android app development with seamless user
             experience.
           </p>
-          <a className="careers__apply-btn">Learn More</a>
+          <a href="/services#mobileapp" className="careers__apply-btn">Learn More</a>
         </div>
         <div className="careers__type-item">
           <span className="careers__type-icon">
@@ -110,7 +116,7 @@ function Home() {
             Corporate training, certification programs, soft skills, leadership,
             and psychological training.
           </p>
-          <a className="careers__apply-btn">Learn More</a>
+          <a href="/training-development" className="careers__apply-btn">Learn More</a>
         </div>
       </div>
       <PageHero

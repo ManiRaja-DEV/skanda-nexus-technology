@@ -1,7 +1,7 @@
 import { Link } from "wouter";
 import {List, X } from "@phosphor-icons/react";
 
-// import logo from "../../assets/logo.svg";
+import logo from "../../assets/logo.svg";
 
 import { NAV_LINKS } from "../../utils/constants";
 import "./Header.css";
@@ -16,8 +16,8 @@ function Header() {
   return (
     <header className="header">
       <div className="header__item">
-        <div className="logo">Skanda Nexus</div>
-        {/* <div className="logo"><img src={logo} alt="Logo" width={85} height={85} /></div> */}
+        {/* <div className="logo">Skanda Nexus</div> */}
+        <div className="logo"><img src={logo} alt="Logo" width={85} height={85} /></div>
         <nav className="nav">
           <div className="nav__item">
             <div className="nav__header">

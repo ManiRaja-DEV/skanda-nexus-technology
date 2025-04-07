@@ -183,10 +183,11 @@ function Form({ isCareersForm }: IForm) {
         </div>
       ) : (
         <div className="form__control">
-          <label htmlFor="" className="form__label">
+          <label htmlFor="message" className="form__label">
             Your Message
           </label>
           <textarea
+            id="message"
             name="message"
             className="form__textarea"
             placeholder="Type here"

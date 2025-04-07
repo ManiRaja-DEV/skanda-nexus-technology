@@ -1,6 +1,7 @@
 .services__item {
   padding-top: 1.875rem;
   border-top: 1px solid var(--grey-700);
+  scroll-margin-top: 7.5rem;
 }
 
 .services__item-header {

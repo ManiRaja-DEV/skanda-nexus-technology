@@ -23,7 +23,7 @@ function Services() {
         description={heroContent.description}
       />
       <section className="services__wrapper">
-        <div className="services__item">
+        <div id="hrservices" className="services__item">
           <div className="services__item-header">
             <h2 className="services__heading">
               Business Process Outsourcing (BPO) for HR
@@ -317,7 +317,7 @@ function Services() {
             </div>
           </div>
         </div>
-        <div className="services__item">
+        <div id="webdevelopment" className="services__item">
           <div className="services__item-header">
             <h2 className="services__heading">Web Development Services</h2>
             <p className="services__description">
@@ -385,7 +385,7 @@ function Services() {
             </div>
           </div>
         </div>
-        <div className="services__item">
+        <div id="mobileapp" className="services__item">
           <div className="services__item-header">
             <h2 className="services__heading">Mobile App Development</h2>
             <p className="services__description">
