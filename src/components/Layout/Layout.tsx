@@ -1,4 +1,6 @@
 import { JSX } from "react";
+import { ToastContainer } from "react-toastify";
+import "react-toastify/dist/ReactToastify.css";
 
 import Header from "./Header";
 import Footer from "./Footer";
@@ -14,6 +16,7 @@ function Layout({ children }: LayoutProps) {
       <Header />
       <main className="main">{children}</main>
       <Footer />
+      <ToastContainer />
     </div>
   );
 }

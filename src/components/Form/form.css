@@ -114,12 +114,16 @@
 /* common styles end */
 
 .form__input--file {
-  appearance: none;
+  visibility: hidden;
 }
+
 .form__label--file {
-  position: relative;
+
   width: fit-content;
-  margin-block: 1rem 0;
+}
+
+.form__label-custom {
+  position: relative;
 }
 
 

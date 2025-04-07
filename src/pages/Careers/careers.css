@@ -1,3 +1,7 @@
+#career-form {
+  scroll-margin-top: 5rem;
+}
+
 .careers__item {
   padding-top: 1.875rem;
   border: 1px solid var(--grey-700);

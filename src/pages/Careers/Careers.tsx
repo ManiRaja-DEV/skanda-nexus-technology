@@ -128,9 +128,9 @@ function Careers() {
       <section id="career-form" className="careers__form">
         <Form isCareersForm={true} />
       </section>
-      <section className="cta-section">
+      {/* <section className="cta-section">
         <CtaSection />
-      </section>
+      </section> */}
     </div>
   );
 }

@@ -22,6 +22,7 @@
 
 .contact__form {
   padding: 1.5rem;
+  scroll-margin-top: 5rem;
 }
 
 .contact__operating-days {

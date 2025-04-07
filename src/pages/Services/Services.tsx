@@ -37,9 +37,9 @@ function Services() {
             </p>
             <p className="services__btn">Our BPO services include:</p>
           </div>
-          <h3 className="services__type">
+          {/* <h3 className="services__type">
             Business Process Outsourcing (BPO) for HR
-          </h3>
+          </h3> */}
           <div className="services__type-wrapper">
             <div className="services__type-item">
               <span className="services__type-icon">
@@ -120,7 +120,7 @@ function Services() {
             </p>
             <p className="services__btn">Our Recruitment & Talent services include:</p>
           </div>
-          <h3 className="services__type">Recruitment & Talent Acquisition</h3>
+          {/* <h3 className="services__type">Recruitment & Talent Acquisition</h3> */}
           <div className="services__type-wrapper">
             <div className="services__type-item">
               <span className="services__type-icon">
@@ -192,7 +192,7 @@ function Services() {
             </p>
             <p className="services__btn">Our HR Strategy & Advisory services include:</p>
           </div>
-          <h3 className="services__type">HR Strategy & Advisory</h3>
+          {/* <h3 className="services__type">HR Strategy & Advisory</h3> */}
           <div className="services__type-wrapper">
             <div className="services__type-item">
               <span className="services__type-icon">
@@ -266,7 +266,7 @@ function Services() {
             </p>
             <p className="services__btn">Our HR Compliance & Legal Support services include:</p>
           </div>
-          <h3 className="services__type">HR Compliance & Legal Support</h3>
+          {/* <h3 className="services__type">HR Compliance & Legal Support</h3> */}
           <div className="services__type-wrapper">
             <div className="services__type-item">
               <span className="services__type-icon">
@@ -330,7 +330,7 @@ function Services() {
             </p>
             <p className="services__btn">Our Web Development services include:</p>
           </div>
-          <h3 className="services__type">Web Development</h3>
+          {/* <h3 className="services__type">Web Development</h3> */}
           <div className="services__type-wrapper">
             <div className="services__type-item">
               <span className="services__type-icon">
@@ -395,7 +395,7 @@ function Services() {
             </p>
             <p className="services__btn">Our Mobile App Development services include:</p>
           </div>
-          <h3 className="services__type">Mobile App Development</h3>
+          {/* <h3 className="services__type">Mobile App Development</h3> */}
           <div className="services__type-wrapper">
             <div className="services__type-item">
               <span className="services__type-icon">
