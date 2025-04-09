@@ -27,18 +27,18 @@ function ContactPage() {
         description={heroContent.description}
       />
       <section className="contact__details">
-        <div className="contact__info">
-          <Envelope size={24} color="#9eff00" weight="fill" />
-          <p className="contact__info-text">hr@skandanexus.com</p>
-        </div>
-        <div className="contact__info">
-          <Phone size={24} color="#9eff00" weight="fill" />
-          <p className="contact__info-text">+91 9840762523</p>
-        </div>
-        <div className="contact__info">
-          <MapPin size={24} color="#9eff00" weight="fill" />
+        <a href="mailto:contact@skandanexus.com" className="contact__info">
+          <Envelope size={24} color="#9eff00" weight="fill" className="contact_icon" />
+          <p className="contact__info-text">contact@skandanexus.com</p>
+        </a >
+        <a href="tel:+919385446681" className="contact__info">
+          <Phone size={24} color="#9eff00" weight="fill" className="contact_icon" />
+          <p className="contact__info-text">+91 93854 46681</p>
+        </a >
+        <a href="" className="contact__info">
+          <MapPin size={24} color="#9eff00" weight="fill" className="contact_icon" />
           <p className="contact__info-text">Get Location</p>
-        </div>
+        </a >
       </section>
       <section id="contact-form" className="contact__form">
         <Form />

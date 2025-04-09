@@ -45,18 +45,18 @@ function Footer() {
       </div>
       <div className="footer__contact">
         <div className="footer__contact-details">
-          <div className="footer__contact-item">
+          <a href="mailto:contact@skandanexus.com" className="footer__contact-item">
             <Envelope size={26} color="#9eff00" weight="fill" />
-            hello@skandanexus.com
-          </div>
-          <div className="footer__contact-item">
+            contact@skandanexus.com
+          </a>
+          <a href="tel:+919385446681" className="footer__contact-item">
             <Phone size={26} color="#9eff00" weight="fill" />
-            +91 1234567890
-          </div>
-          <div className="footer__contact-item">
+            +91 93854 46681
+          </a>
+          <a className="footer__contact-item">
             <MapPin size={26} color="#9eff00" weight="fill" />
-            Somewhere in the world
-          </div>
+            Salem (HQ) | Bangalore (Tech Hub)
+          </a>
         </div>
         <div className="footer__copyright">
           <p className="footer__copyright-text">
