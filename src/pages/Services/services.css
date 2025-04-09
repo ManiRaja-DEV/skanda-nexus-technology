@@ -24,7 +24,7 @@
 
 .services__item:nth-child(3) .services__image-container  {
   background-image: url("../../assets/Advisory.jpeg");
-  background-position: center bottom;
+  background-position: top bottom;
 }
 
 .services__item:nth-child(4) .services__image-container  {
@@ -136,21 +136,25 @@
     border-inline: 1px solid var(--grey-700);
   }
 
+}
+
+@media screen and (min-width: 62rem) {
+  .services__type-item {
+    flex: 0 0 33.33%;
+  }
+}
+
+@media screen and (min-width: 48rem) {
   .services__item-header {
     display: flex;
     justify-content: center;
     align-items: center;
+    gap: 50px;
   }
 
   .services__image-container {
     order: 2;
     height: 350px;
     margin-bottom: 0;
-  }
-}
-
-@media screen and (min-width: 62rem) {
-  .services__type-item {
-    flex: 0 0 33.33%;
   }
 }
