@@ -2,7 +2,6 @@ import { AddressBook, Alarm, Globe, TrendUp } from "@phosphor-icons/react";
 import PageHero from "../../components/PageHero/PageHero";
 
 import "./services.css";
-import ITImage from "../../assets/IT.jpeg";
 
 function Services() {
   const heroContent = {
@@ -188,8 +187,7 @@ function Services() {
         </div>
         <div className="services__item">
           <div className="services__item-header">
-            <div className="services__image-container">
-            </div>
+            <div className="services__image-container"></div>
             <div className="services__item-content">
               <h2 className="services__heading">HR Strategy & Advisory</h2>
               <p className="services__description">
@@ -267,8 +265,7 @@ function Services() {
         </div>
         <div className="services__item">
           <div className="services__item-header">
-            <div className="services__image-container">
-            </div>
+            <div className="services__image-container"></div>
             <div className="services__item-content">
               <h2 className="services__heading">
                 HR Compliance & Legal Support
@@ -336,9 +333,7 @@ function Services() {
         </div>
         <div id="webdevelopment" className="services__item">
           <div className="services__item-header">
-            <div className="services__image-container">
-              <img src={ITImage} alt="" className="services__image" />
-            </div>
+            <div className="services__image-container"></div>
             <div className="services__item-content">
               <h2 className="services__heading">Web Development Services</h2>
               <p className="services__description">
@@ -410,9 +405,7 @@ function Services() {
         </div>
         <div id="mobileapp" className="services__item">
           <div className="services__item-header">
-            <div className="services__image-container">
-              <img src={ITImage} alt="" className="services__image" />
-            </div>
+            <div className="services__image-container"></div>
             <div className="services__item-content">
               <h2 className="services__heading">Mobile App Development</h2>
               <p className="services__description">
