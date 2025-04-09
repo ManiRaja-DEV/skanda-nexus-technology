@@ -4,6 +4,38 @@
   scroll-margin-top: 7.5rem;
 }
 
+.services__image-container {
+  max-width: 25rem;
+  height: 266px;
+  background-position: center;
+  background-size: cover;
+  object-fit: contain;
+  margin: 0 auto;
+}
+
+.services__item:nth-child(1) .services__image-container {
+  background-image: url("../../assets/BPO.jpeg");
+}
+
+.services__item:nth-child(2) .services__image-container {
+  background-image: url("../../assets/Staff.jpeg");
+  background-position: top left;
+}
+
+.services__item:nth-child(3) .services__image-container  {
+  background-image: url("../../assets/BPO.jpeg");
+}
+
+.services__item:nth-child(4) .services__image-container  {
+  background-image: url("../../assets/Staff.jpeg");
+  background-position: top left;
+}
+
+.services__item-content,
+.services__image-container {
+  flex-basis: 50%;
+}
+
 .services__item-header {
   padding: 0 1rem 1.875rem;
 }
@@ -87,6 +119,16 @@
   .services__type-item {
     flex: 1 0 50%;
     border-inline: 1px solid var(--grey-700);
+  }
+
+  .services__item-header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .services__image-container {
+    order: 2;
   }
 }
 

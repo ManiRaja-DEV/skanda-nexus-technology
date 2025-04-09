@@ -2,6 +2,7 @@ import { AddressBook, Alarm, Globe, TrendUp } from "@phosphor-icons/react";
 import PageHero from "../../components/PageHero/PageHero";
 
 import "./services.css";
+import ITImage from "../../assets/IT.jpeg";
 
 function Services() {
   const heroContent = {
@@ -25,15 +26,18 @@ function Services() {
       <section className="services__wrapper">
         <div id="hrservices" className="services__item">
           <div className="services__item-header">
-            <h2 className="services__heading">
-              Business Process Outsourcing (BPO) for HR
-            </h2>
-            <p className="services__description">
-              From customer support to backend tasks, we handle it all. Maximize
-              productivity while reducing operational costs. Your process, our
-              precision—outsourced with excellence.
-            </p>
-            <p className="services__btn">Our BPO services include:</p>
+            <div className="services__image-container"></div>
+            <div className="services__item-content">
+              <h2 className="services__heading">
+                Business Process Outsourcing (BPO) for HR
+              </h2>
+              <p className="services__description">
+                From customer support to backend tasks, we handle it all.
+                Maximize productivity while reducing operational costs. Your
+                process, our precision—outsourced with excellence.
+              </p>
+              <p className="services__btn">Our BPO services include:</p>
+            </div>
           </div>
           {/* <h3 className="services__type">
             Business Process Outsourcing (BPO) for HR
@@ -106,18 +110,21 @@ function Services() {
         </div>
         <div className="services__item">
           <div className="services__item-header">
-            <h2 className="services__heading">
-              Recruitment & Talent Acquisition
-            </h2>
-            <p className="services__description">
-              Find the right talent, the first time. We specialize in strategic
-              hiring that aligns with your vision. From sourcing to onboarding,
-              we cover every step. Empowering your teams with future-ready
-              professionals.
-            </p>
-            <p className="services__btn">
-              Our Recruitment & Talent services include:
-            </p>
+            <div className="services__image-container"></div>
+            <div className="services__item-content">
+              <h2 className="services__heading">
+                Recruitment & Talent Acquisition
+              </h2>
+              <p className="services__description">
+                Find the right talent, the first time. We specialize in
+                strategic hiring that aligns with your vision. From sourcing to
+                onboarding, we cover every step. Empowering your teams with
+                future-ready professionals.
+              </p>
+              <p className="services__btn">
+                Our Recruitment & Talent services include:
+              </p>
+            </div>
           </div>
           {/* <h3 className="services__type">Recruitment & Talent Acquisition</h3> */}
           <div className="services__type-wrapper">
@@ -181,16 +188,20 @@ function Services() {
         </div>
         <div className="services__item">
           <div className="services__item-header">
-            <h2 className="services__heading">HR Strategy & Advisory</h2>
-            <p className="services__description">
-              Build a people-first culture with smart HR strategies. We craft
-              agile frameworks that scale with your business. Our advisory
-              blends insight with innovation. Drive growth with a workforce
-              aligned to your goals.
-            </p>
-            <p className="services__btn">
-              Our HR Strategy & Advisory services include:
-            </p>
+            <div className="services__image-container">
+            </div>
+            <div className="services__item-content">
+              <h2 className="services__heading">HR Strategy & Advisory</h2>
+              <p className="services__description">
+                Build a people-first culture with smart HR strategies. We craft
+                agile frameworks that scale with your business. Our advisory
+                blends insight with innovation. Drive growth with a workforce
+                aligned to your goals.
+              </p>
+              <p className="services__btn">
+                Our HR Strategy & Advisory services include:
+              </p>
+            </div>
           </div>
           {/* <h3 className="services__type">HR Strategy & Advisory</h3> */}
           <div className="services__type-wrapper">
@@ -256,16 +267,22 @@ function Services() {
         </div>
         <div className="services__item">
           <div className="services__item-header">
-            <h2 className="services__heading">HR Compliance & Legal Support</h2>
-            <p className="services__description">
-              Stay ahead of regulations with expert HR compliance. We simplify
-              legal complexities and reduce risks. From audits to policy
-              updates, we’ve got you covered. Secure, lawful, and always
-              HR-ready.
-            </p>
-            <p className="services__btn">
-              Our HR Compliance & Legal Support services include:
-            </p>
+            <div className="services__image-container">
+            </div>
+            <div className="services__item-content">
+              <h2 className="services__heading">
+                HR Compliance & Legal Support
+              </h2>
+              <p className="services__description">
+                Stay ahead of regulations with expert HR compliance. We simplify
+                legal complexities and reduce risks. From audits to policy
+                updates, we’ve got you covered. Secure, lawful, and always
+                HR-ready.
+              </p>
+              <p className="services__btn">
+                Our HR Compliance & Legal Support services include:
+              </p>
+            </div>
           </div>
           {/* <h3 className="services__type">HR Compliance & Legal Support</h3> */}
           <div className="services__type-wrapper">
@@ -319,19 +336,25 @@ function Services() {
         </div>
         <div id="webdevelopment" className="services__item">
           <div className="services__item-header">
-            <h2 className="services__heading">Web Development Services</h2>
-            <p className="services__description">
-              In today’s digital-first world, a strong online presence is more
-              than just a necessity—it’s a game-changer. At Skanda Nexus
-              Technologies, we craft cutting-edge web solutions that are fast,
-              secure, and scalable, helping businesses stand out in the
-              competitive digital landscape. Whether you need a sleek corporate
-              website, a high-performance web app, or a dynamic CMS platform, we
-              bring your vision to life with precision and innovation.
-            </p>
-            <p className="services__btn">
-              Our Web Development services include:
-            </p>
+            <div className="services__image-container">
+              <img src={ITImage} alt="" className="services__image" />
+            </div>
+            <div className="services__item-content">
+              <h2 className="services__heading">Web Development Services</h2>
+              <p className="services__description">
+                In today’s digital-first world, a strong online presence is more
+                than just a necessity—it’s a game-changer. At Skanda Nexus
+                Technologies, we craft cutting-edge web solutions that are fast,
+                secure, and scalable, helping businesses stand out in the
+                competitive digital landscape. Whether you need a sleek
+                corporate website, a high-performance web app, or a dynamic CMS
+                platform, we bring your vision to life with precision and
+                innovation.
+              </p>
+              <p className="services__btn">
+                Our Web Development services include:
+              </p>
+            </div>
           </div>
           {/* <h3 className="services__type">Web Development</h3> */}
           <div className="services__type-wrapper">
@@ -387,18 +410,23 @@ function Services() {
         </div>
         <div id="mobileapp" className="services__item">
           <div className="services__item-header">
-            <h2 className="services__heading">Mobile App Development</h2>
-            <p className="services__description">
-              At Skanda Nexus Technologies, we don’t just build mobile apps—we
-              craft seamless digital experiences that engage users, drive
-              business growth, and stand out in the competitive market. Whether
-              you need a high-performance native app or a versatile
-              cross-platform solution, our team ensures cutting-edge innovation
-              tailored to your needs.
-            </p>
-            <p className="services__btn">
-              Our Mobile App Development services include:
-            </p>
+            <div className="services__image-container">
+              <img src={ITImage} alt="" className="services__image" />
+            </div>
+            <div className="services__item-content">
+              <h2 className="services__heading">Mobile App Development</h2>
+              <p className="services__description">
+                At Skanda Nexus Technologies, we don’t just build mobile apps—we
+                craft seamless digital experiences that engage users, drive
+                business growth, and stand out in the competitive market.
+                Whether you need a high-performance native app or a versatile
+                cross-platform solution, our team ensures cutting-edge
+                innovation tailored to your needs.
+              </p>
+              <p className="services__btn">
+                Our Mobile App Development services include:
+              </p>
+            </div>
           </div>
           {/* <h3 className="services__type">Mobile App Development</h3> */}
           <div className="services__type-wrapper">
