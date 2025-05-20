@@ -11,10 +11,13 @@ function AppRoutes() {
   return (
     <Layout>
       <Switch>
-        <Route path="/" component={Home} />
+        <Route path="/skanda-nexus-technology" component={Home} />
         <Route path="/skanda-nexus-technology/services" component={Services} />
         <Route path="/skanda-nexus-technology/careers" component={Careers} />
-        <Route path="/skanda-nexus-technology/training-development" component={TrainingDevelopment} />
+        <Route
+          path="/skanda-nexus-technology/training-development"
+          component={TrainingDevelopment}
+        />
         <Route path="/skanda-nexus-technology/about-us" component={About} />
         <Route path="/skanda-nexus-technology/contact-us" component={Contact} />
       </Switch>
