@@ -1,10 +1,10 @@
 export const NAV_LINKS = [
-  { name: "Home", path: "/skanda-nexus-technology" },
-  { name: "Services", path: "/skanda-nexus-technology/services" },
-  { name: "Products", path: "/skanda-nexus-technology/products" },
-  { name: "Training & Development", path: "/skanda-nexus-technology/training-development" },  
-  { name: "Careers", path: "/skanda-nexus-technology/careers" },
-  { name: "About Us", path: "/skanda-nexus-technology/about-us" },
+  { name: "Home", path: "/" },
+  { name: "Services", path: "/services" },
+  { name: "Products", path: "/products" },
+  { name: "Training & Development", path: "/training-development" },
+  { name: "Careers", path: "/careers" },
+  { name: "About Us", path: "/about-us" },
 ];
 
 export const SERVICES = [
@@ -13,7 +13,7 @@ export const SERVICES = [
   "Website Development",
   "Mobile App Development",
   "Training and Development",
-  "Others"
+  "Others",
 ];
 
 export const OPENINGS = [

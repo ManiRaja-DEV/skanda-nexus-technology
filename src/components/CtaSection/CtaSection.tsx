@@ -6,7 +6,11 @@ function CtaSection() {
   return (
     <>
       <div className="cta-section__hero">
-        <div className="cta-section__logo"><div className="logo"><img src={logo} alt="Logo" width={70} height={70} /></div></div>
+        <div className="cta-section__logo">
+          <div className="logo">
+            <img src={logo} alt="Logo" width={70} height={70} />
+          </div>
+        </div>
         <div className="cta-section__content">
           <h3 className="cta-section__heading">
             Today, Skanda Nexus Continues to Thrive as a Leading Digital Product
@@ -28,7 +32,7 @@ function CtaSection() {
             Shape the Future of Digital Innovation.
           </p>
         </div>
-        <a href="/#mobileapp/contact-us#contact-form" className="cta-section__main-btn">
+        <a href="/contact-us#contact-form" className="cta-section__main-btn">
           Start Project
         </a>
       </div>

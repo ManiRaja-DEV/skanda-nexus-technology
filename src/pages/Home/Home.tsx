@@ -46,13 +46,13 @@ function Home() {
         </p>
         <div className="home__cta">
           <Link
-            to="/skanda-nexus-technology/about-us"
+            to="/about-us"
             className="home__cta-btn home__cta-btn--about"
           >
             About Us
           </Link>
           <Link
-            to="/skanda-nexus-technology/contact-us"
+            to="/contact-us"
             className="home__cta-btn"
           >
             Contact Us
@@ -74,7 +74,7 @@ function Home() {
             and driver behavior insights.
           </p>
           <Link
-            to="/skanda-nexus-technology/products"
+            to="/products"
             className="careers__apply-btn"
           >
             Learn More
@@ -90,7 +90,7 @@ function Home() {
             support.
           </p>
           <Link
-            to="/skanda-nexus-technology/services"
+            to="/services"
             className="careers__apply-btn"
           >
             Learn More
@@ -106,7 +106,7 @@ function Home() {
             features.
           </p>
           <Link
-            to="/skanda-nexus-technology/services#webdevelopment"
+            to="/services#webdevelopment"
             className="careers__apply-btn"
           >
             Learn More
@@ -122,7 +122,7 @@ function Home() {
             experience.
           </p>
           <Link
-            to="/skanda-nexus-technology/services#mobileapp"
+            to="/services#mobileapp"
             className="careers__apply-btn"
           >
             Learn More
@@ -138,7 +138,7 @@ function Home() {
             and psychological training.
           </p>
           <Link
-            to="/skanda-nexus-technology/training-development"
+            to="/training-development"
             className="careers__apply-btn"
           >
             Learn More

@@ -33,7 +33,7 @@ function Header() {
                 </li>
               ))}
               <hr className="separator nav__separator"/>
-              <Link to="/skanda-nexus-technology/contact-us" className="cta nav__cta">
+              <Link to="/contact-us" className="cta nav__cta">
                 Contact Us
               </Link>
             </ul>
