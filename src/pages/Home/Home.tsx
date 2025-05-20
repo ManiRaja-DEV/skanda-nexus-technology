@@ -90,7 +90,7 @@ function Home() {
             support.
           </p>
           <Link
-            to="/skanda-nexus-technology/services#hrservices"
+            to="/skanda-nexus-technology/services"
             className="careers__apply-btn"
           >
             Learn More
