@@ -73,12 +73,12 @@ function Home() {
             Real-time location tracking, route optimization, fuel monitoring,
             and driver behavior insights.
           </p>
-          <a
+          <Link
             href="/skanda-nexus-technology/products"
             className="careers__apply-btn"
           >
             Learn More
-          </a>
+          </Link>
         </div>
         <div className="careers__type-item">
           <span className="careers__type-icon">
@@ -89,12 +89,12 @@ function Home() {
             Talent acquisition, performance management, payroll, and compliance
             support.
           </p>
-          <a
+          <Link
             href="/services#hrservices"
             className="careers__apply-btn"
           >
             Learn More
-          </a>
+          </Link>
         </div>
         <div className="careers__type-item">
           <span className="careers__type-icon">
@@ -105,12 +105,12 @@ function Home() {
             Custom website solutions with UI/UX design, SEO, and e-commerce
             features.
           </p>
-          <a
+          <Link
             href="/services#webdevelopment"
             className="careers__apply-btn"
           >
             Learn More
-          </a>
+          </Link>
         </div>
         <div className="careers__type-item">
           <span className="careers__type-icon">
@@ -121,12 +121,12 @@ function Home() {
             High-quality iOS & Android app development with seamless user
             experience.
           </p>
-          <a
+          <Link
             href="/services#mobileapp"
             className="careers__apply-btn"
           >
             Learn More
-          </a>
+          </Link>
         </div>
         <div className="careers__type-item">
           <span className="careers__type-icon">
@@ -137,12 +137,12 @@ function Home() {
             Corporate training, certification programs, soft skills, leadership,
             and psychological training.
           </p>
-          <a
-            href="training-development"
+          <Link
+            href="/training-development"
             className="careers__apply-btn"
           >
             Learn More
-          </a>
+          </Link>
         </div>
       </div>
       <PageHero
