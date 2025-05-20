@@ -90,7 +90,7 @@ function Home() {
             support.
           </p>
           <a
-            href="/skanda-nexus-technology/services#hrservices"
+            href="/services#hrservices"
             className="careers__apply-btn"
           >
             Learn More
@@ -106,7 +106,7 @@ function Home() {
             features.
           </p>
           <a
-            href="/skanda-nexus-technology/services#webdevelopment"
+            href="/services#webdevelopment"
             className="careers__apply-btn"
           >
             Learn More
@@ -122,7 +122,7 @@ function Home() {
             experience.
           </p>
           <a
-            href="/skanda-nexus-technology/services#mobileapp"
+            href="/services#mobileapp"
             className="careers__apply-btn"
           >
             Learn More
@@ -138,7 +138,7 @@ function Home() {
             and psychological training.
           </p>
           <a
-            href="/skanda-nexus-technology/training-development"
+            href="training-development"
             className="careers__apply-btn"
           >
             Learn More
