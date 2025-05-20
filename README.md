@@ -1,1 +1,0 @@
-# skanda-nexus-technology

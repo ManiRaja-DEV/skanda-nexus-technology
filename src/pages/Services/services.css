@@ -1,0 +1,160 @@
+.services__item {
+  padding-top: 1.875rem;
+  border-top: 1px solid var(--grey-700);
+  scroll-margin-top: 7.5rem;
+}
+
+.services__image-container {
+  max-width: 25rem;
+  height: 266px;
+  background-position: center;
+  background-size: cover;
+  object-fit: contain;
+  margin: 0 auto;
+}
+
+.services__item:nth-child(1) .services__image-container {
+  background-image: url("../../assets/BPO.jpeg");
+}
+
+.services__item:nth-child(2) .services__image-container {
+  background-image: url("../../assets/Staff.jpeg");
+  background-position: top left;
+}
+
+.services__item:nth-child(3) .services__image-container  {
+  background-image: url("../../assets/Advisory.jpeg");
+  background-position: center bottom;
+}
+
+.services__item:nth-child(4) .services__image-container  {
+  background-image: url("../../assets/Compliance.jpeg");
+  background-position: center bottom;
+}
+
+.services__item:nth-child(5) .services__image-container {
+  background-image: url("../../assets/IT.jpeg");
+  background-position: top left;
+}
+
+.services__item:nth-child(6) .services__image-container {
+  background-image: url("../../assets/IT.jpeg");
+  background-position: top left;
+}
+
+.services__image-container {
+  margin-bottom: 2rem;
+}
+
+.services__item-content,
+.services__image-container {
+  flex-basis: 50%;
+}
+
+.services__item-header {
+  padding: 0 1rem 1.875rem;
+}
+
+.services__heading {
+  margin-bottom: clamp(0.375rem, 0.3036rem + 0.3571vw, 0.625rem);
+  font-size: 1.5rem;
+  font-weight: var(--fw-semibold);
+  color: var(--white);
+}
+
+.services__description {
+  padding-bottom: 1.25rem;
+  font-size: clamp(0.875rem, 0.8393rem + 0.1786vw, 1rem);
+  color: var(--grey-100);
+}
+
+.services__btn {
+  width: fit-content;
+  padding: 0.625rem;
+  color: var(--white);
+  background-color: var(--grey-700);
+  border-radius: var(--rounded-md);
+}
+
+.services__type {
+  padding: 1.875rem 1rem;
+  font-size: 1.25rem;
+  font-weight: var(--fw-medium);
+  text-align: center;
+  color: var(--grey-200);
+}
+
+.services__type-icon {
+  display: inline-block;
+  line-height: 0;
+  padding: 1rem;
+  margin-bottom: 1.25rem;
+  background-image: linear-gradient(to bottom, #242424 0%, #24242400 100%);
+  border: 1px solid #242424;
+  border-radius: 0.6rem;
+}
+
+.services__type-name {
+  margin-bottom: clamp(0.625rem, 0.5536rem + 0.3571vw, 0.875rem);
+  font-size: clamp(1rem, 0.9286rem + 0.3571vw, 1.25rem);
+  font-weight: var(--fw-semibold);
+  color: var(--grey-100);
+}
+
+.services__type-content {
+  font-size: clamp(0.875rem, 0.8393rem + 0.1786vw, 1rem);
+  color: var(--grey-100);
+}
+ 
+.services__wrapper {
+  border: 1px solid var(--grey-700);
+  border-bottom: 0;
+}
+
+.services__item-header,
+.services__type ,
+.services__type-item{
+  border-bottom: 1px solid var(--grey-700);
+}
+
+.services__type-item {
+  padding: 1.25rem;
+}
+
+@media screen and (min-width: 36rem) {
+  .services__item-header,
+  .services__type-item {
+    padding-inline: clamp(1.25rem, 0.8929rem + 1.7857vw, 2.5rem);
+  }
+  .services__type-wrapper {
+    display: flex;
+    flex-wrap: wrap;
+  }
+
+  .services__type-item {
+    flex: 1 0 50%;
+    border-inline: 1px solid var(--grey-700);
+  }
+
+}
+
+@media screen and (min-width: 62rem) {
+  .services__type-item {
+    flex: 0 0 33.33%;
+  }
+}
+
+@media screen and (min-width: 48rem) {
+  .services__item-header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+  }
+
+  .services__image-container {
+    order: 2;
+    height: 350px;
+    margin-bottom: 0;
+  }
+}
