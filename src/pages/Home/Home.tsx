@@ -74,7 +74,7 @@ function Home() {
             and driver behavior insights.
           </p>
           <Link
-            href="/skanda-nexus-technology/products"
+            to="/skanda-nexus-technology/products"
             className="careers__apply-btn"
           >
             Learn More
@@ -90,7 +90,7 @@ function Home() {
             support.
           </p>
           <Link
-            href="/skanda-nexus-technology/services#hrservices"
+            to="/skanda-nexus-technology/services#hrservices"
             className="careers__apply-btn"
           >
             Learn More
@@ -106,7 +106,7 @@ function Home() {
             features.
           </p>
           <Link
-            href="/skanda-nexus-technology/services#webdevelopment"
+            to="/skanda-nexus-technology/services#webdevelopment"
             className="careers__apply-btn"
           >
             Learn More
@@ -122,7 +122,7 @@ function Home() {
             experience.
           </p>
           <Link
-            href="/skanda-nexus-technology/services#mobileapp"
+            to="/skanda-nexus-technology/services#mobileapp"
             className="careers__apply-btn"
           >
             Learn More
@@ -138,7 +138,7 @@ function Home() {
             and psychological training.
           </p>
           <Link
-            href="/skanda-nexus-technology/training-development"
+            to="/skanda-nexus-technology/training-development"
             className="careers__apply-btn"
           >
             Learn More
